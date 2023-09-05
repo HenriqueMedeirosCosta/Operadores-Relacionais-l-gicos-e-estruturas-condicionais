@@ -11,6 +11,7 @@ int main(void) {
   scanf("%f", &c);
 
   delta = (pow(b, 2) - (4 * a *c));
+   equacao = (a * (( x * x)) + (b * x) + c);
   
   
 
@@ -25,8 +26,8 @@ int main(void) {
   else if (delta >= 0){
 
     x1 = ((- (b) + (sqrt(delta))) / 2 * a); 
-    x2 = ((- (b) + (sqrt(delta))) / 2 * a); 
-    equacao = (a * (( x * x)) + (b * x) + c);
+    x2 = ((- (b) - (sqrt(delta))) / 2 * a); 
+  
 
     printf("possui duas raizes reais: %.2f, %.2f", x1, x2 );
     
