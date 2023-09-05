@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+  float media, prova1, prova2, prova3;
+
+  printf("Digite a nota da prova1\n");
+  scanf("%f", &prova1);
+  printf("Digite a nota da prova2\n");
+  scanf("%f",&prova2);
+  printf("Digite a nota da prova3\n");
+  scanf("%f", &prova3);
+
+  media = ((prova1 * 1) + (prova2 * 1) + (prova3 *2)) / (1+1+2);
+
+  if (media >=7){
+    printf("APROVADO : %.2f", media);
+  }else{
+    printf("REPROVADO %.2f", media);
+  }
+  
+  
+}
