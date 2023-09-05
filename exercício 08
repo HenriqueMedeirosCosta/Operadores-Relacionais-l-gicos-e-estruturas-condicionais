@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+  float trabalho, idade;
+  printf("Digite o seu tempo de trabalho\n");
+  scanf("%f", &trabalho);
+  printf("Digite sua idade\n");
+  scanf("%f",&idade);
+
+  if ((idade >= 65) || (trabalho >=30) || ((idade >=60)&& (trabalho >=25))){
+    printf("parabéns, está aposentado");
+    
+  }else{
+    printf("Você não está aposentado");
+  }
+  
+
+}
